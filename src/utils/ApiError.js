@@ -12,7 +12,7 @@ statck = ""
         this.success = false
         this.errors = errors
 
-        if(statck) {
+        if(stack) {
             this.stack = this.stack
         }else{
             Error.captureStackTrace(this, this.constructor)
